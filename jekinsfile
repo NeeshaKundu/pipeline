@@ -1,6 +1,6 @@
 node {
    stage('Clone') {
-       git 'https://github.com/<your-username>/<your-repo>.git'
+       git 'https://github.com/NeeshaKundu/pipeline.git'
    }
    stage('Build') {
        echo 'Building the application...'
